@@ -1,0 +1,240 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}*/
+
+@font-face {
+    font-family: matroska;
+    src: url(fonts/matroska-rppg6.ttf);}
+@font-face {
+    font-family: golane;
+    src: url(fonts/GolaneRounded-Regular-BF65fbec836e931.otf);}
+
+.body1{
+    background-image: url(imgs/Body1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    font-family: matroska;}
+.body2{
+    background-image: url(imgs/Body2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: matroska;}
+.body3{
+    background-image: url(imgs/Body3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: matroska;}
+.body4{
+    background-image: url(imgs/Body3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: matroska;
+    color: beige;}
+.body5{
+    background-image: url(imgs/Body4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: beige;
+    font-family: matroska;}
+
+header{
+        margin: 10px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-wrap: wrap;  
+    }
+
+/*portadas*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section .a2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section .a4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    margin: 20px 20px 20px 20px;
+    width: 350px;
+    height: 250px;
+}
+/*galeria*/
+.gal img{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*menu*/
+
+header nav ul{
+    margin-top: 20px;
+    list-style: none;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+main{
+    margin: 5px 20px;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: beige;
+}
+h2{
+  text-align: center;
+  margin-bottom: 90px;
+  flex-wrap: wrap;
+  color: beige;
+  
+}
+/*intentando que el menu me quede o de un lado o del otro cuando se achique*/
+@media screen and (min-widrh: 600px) {
+   ul{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+/*tours*/
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0px 70px;
+    color: beige;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 80px;
+    
+   
+}
+.contenedor ul li{
+    justify-content: center;
+    list-style: none;
+    margin: 2px 80px;
+    flex-wrap: wrap;
+    font-family: golane;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+footer{
+    font-family: golane;
+    color: beige;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 100px;
+}
+
+.instagram{
+    color: beige;
+    margin-top: 250px;
+    text-decoration: none;
+}
+.instagram:hover{
+    color: #060B07;
+    text-decoration:solid;
+}
+.youtube{
+    color: beige;
+    margin-top: 250px;
+    text-decoration: none;
+}
+.youtube:hover{
+    color: #060B07;
+    text-decoration:solid;
+}
+.spotify{
+    color: beige;
+    margin-top: 250px;
+    text-decoration: none;
+}
+.spotify:hover{
+    color: #060B07;
+    text-decoration:solid;
+
+}
+.X{ color: beige;
+    margin-top: 250px;
+    text-decoration: none;
+}
+.X:hover{
+    color: #060B07;
+    text-decoration:solid;
+
+}
+/*BOTONES NAVEGACION*/
+.botones{
+    color: beige;
+    text-decoration: none;
+}
+.botones:hover{
+    color: #060B07;
+    text-decoration:solid;}
